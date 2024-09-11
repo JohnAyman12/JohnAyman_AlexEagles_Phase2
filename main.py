@@ -121,8 +121,8 @@ def draw_path(grid: list, path: list):
 
 rows = 8
 cols = 8
-start = (0, 0)
-end = (7, 7)
+start = (5, 4)
+end = (2, 7)
 
 grid = genaret_random_grid(rows, cols, start, end)
 while not grid_is_solvable(grid):
